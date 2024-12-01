@@ -6705,6 +6705,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sgftech/payment-razorpay@npm:^2.1.11":
+  version: 2.1.11
+  resolution: "@sgftech/payment-razorpay@npm:2.1.11"
+  dependencies:
+    razorpay: "npm:^2.9.5"
+  peerDependencies:
+    "@medusajs/admin-sdk": "*"
+    "@medusajs/cli": "*"
+    "@medusajs/framework": ^2.0.0
+    "@medusajs/medusa": "*"
+    awilix: ^8.0.1
+  checksum: 10/2716dfd2cf25ff0622fc0f2aff68efc038b56f588a89ee631fc33127f60731b6d06263cc7e5efc29eaf5d9199c63582dc72e5e23930bdb2823e09b13fdec6edf
+  languageName: node
+  linkType: hard
+
 "@sinclair/typebox@npm:^0.27.8":
   version: 0.27.8
   resolution: "@sinclair/typebox@npm:0.27.8"
@@ -8353,6 +8368,17 @@ __metadata:
   dependencies:
     follow-redirects: "npm:^1.14.0"
   checksum: 10/da644592cb6f8f9f8c64fdabd7e1396d6769d7a4c1ea5f8ae8beb5c2eb90a823e3a574352b0b934ac62edc762c0f52647753dc54f7d07279127a7e5c4cd20272
+  languageName: node
+  linkType: hard
+
+"axios@npm:^1.6.8":
+  version: 1.7.8
+  resolution: "axios@npm:1.7.8"
+  dependencies:
+    follow-redirects: "npm:^1.15.6"
+    form-data: "npm:^4.0.0"
+    proxy-from-env: "npm:^1.1.0"
+  checksum: 10/7ddcde188041ac55090186254b4025eb2af842be3cf615ce45393fd7f543c1eab0ad2fdd2017a5f6190695e3ecea73ee5e9c37f204854aec2698f9579046efdf
   languageName: node
   linkType: hard
 
@@ -12563,6 +12589,7 @@ __metadata:
     "@mikro-orm/knex": "npm:5.9.7"
     "@mikro-orm/migrations": "npm:5.9.7"
     "@mikro-orm/postgresql": "npm:5.9.7"
+    "@sgftech/payment-razorpay": "npm:^2.1.11"
     "@swc/core": "npm:1.5.7"
     "@swc/jest": "npm:^0.2.36"
     "@tanstack/eslint-plugin-query": "npm:^5.58.1"
@@ -13917,6 +13944,15 @@ __metadata:
     iconv-lite: "npm:0.4.24"
     unpipe: "npm:1.0.0"
   checksum: 10/863b5171e140546a4d99f349b720abac4410338e23df5e409cfcc3752538c9caf947ce382c89129ba976f71894bd38b5806c774edac35ebf168d02aa1ac11a95
+  languageName: node
+  linkType: hard
+
+"razorpay@npm:^2.9.5":
+  version: 2.9.5
+  resolution: "razorpay@npm:2.9.5"
+  dependencies:
+    axios: "npm:^1.6.8"
+  checksum: 10/a539381657471eb1b45eeb9c541be40a54ae6383f7ed416467173da7fc0a85121dbbb8433f82d5a9cf2f0afa9db6f86e89d4141756dd75503e82b6254047ab88
   languageName: node
   linkType: hard
 
