@@ -16,13 +16,14 @@
     "build": "medusa build",
     "seed": "medusa exec ./src/scripts/seed.ts",
     "start": "medusa start",
+    "predeploy": "medusa db:migrate",
     "dev": "medusa develop",
     "test:integration:http": "TEST_TYPE=integration:http NODE_OPTIONS=--experimental-vm-modules jest --silent=false --runInBand --forceExit",
     "test:integration:modules": "TEST_TYPE=integration:modules NODE_OPTIONS=--experimental-vm-modules jest --silent --runInBand --forceExit",
     "test:unit": "TEST_TYPE=unit NODE_OPTIONS=--experimental-vm-modules jest --silent --runInBand --forceExit"
   },
   "dependencies": {
-    "@medusajs/admin-sdk": "^2.0.0",
+    "@medusajs/admin-sdk": "^2.0.7",
     "@medusajs/cli": "^2.0.0",
     "@medusajs/framework": "^2.0.0",
     "@medusajs/medusa": "^2.0.0",
